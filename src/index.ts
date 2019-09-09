@@ -1,0 +1,1 @@
+export { ThemerollerModule } from './module';
