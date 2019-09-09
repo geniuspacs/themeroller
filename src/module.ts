@@ -1,9 +1,15 @@
 import { NgModule, Injectable, ModuleWithProviders } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
+import { HelloComponent } from './components';
+
 @NgModule({
-  declarations: [],
-  imports: [CommonModule],
+  declarations: [
+    HelloComponent
+  ],
+  imports: [
+    CommonModule
+  ],
   exports: [],
   providers: [],
 })
