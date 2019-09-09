@@ -11,7 +11,7 @@ var HelloComponent = /** @class */ (function () {
     HelloComponent = __decorate([
         Component({
             selector: 'app-hola',
-            template: "",
+            template: "<h1>Hello Friend</h1>",
             providers: []
         })
     ], HelloComponent);
