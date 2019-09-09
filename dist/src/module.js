@@ -32,7 +32,9 @@ var ThemerollerModule = /** @class */ (function () {
             imports: [
                 CommonModule
             ],
-            exports: [],
+            exports: [
+                HelloComponent
+            ],
             providers: [],
         }),
         Injectable()
