@@ -10,7 +10,9 @@ import { HelloComponent } from './components';
   imports: [
     CommonModule
   ],
-  exports: [],
+  exports: [
+    HelloComponent
+  ],
   providers: [],
 })
 
