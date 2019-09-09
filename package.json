@@ -1,6 +1,9 @@
 {
   "name": "themeroller",
   "version": "0.0.0",
+  "license": "MIT",
+  "main": "dist/src/index.js",
+  "typings": "dist/src/index.d.ts",
   "scripts": {
     "build": "rm -rf ./dist && ngc -p src/tsconfig.app.json",
     "test": "ng test"
